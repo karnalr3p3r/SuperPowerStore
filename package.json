@@ -1,7 +1,7 @@
 {
-  "name": "react-router",
+  "name": "The-Arsenal",
   "version": "1.0.0",
-  "description": "Basic skeleton codebase for React/Router applications.",
+  "description": "My mock Super Power Generator",
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
