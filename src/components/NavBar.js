@@ -9,7 +9,7 @@ export default function NavBar() {
     <div className="navbar ">
       <Link to="/">HOME</Link>
       <Link to="/about">ABOUT</Link>
-      <Link to="/SuperPowers">Get Your Super Power Here!</Link>
+      <Link to="/Dashboard">Super Power List</Link>
       <Link to="/store">Store</Link>
       {Login()}
     </div>

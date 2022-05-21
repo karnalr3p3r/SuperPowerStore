@@ -1,4 +1,23 @@
-.heading {
-    font-size: 25px;
-    color: black;
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.nameContainer {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    & p {
+        font-size: 25px;
+    }
+}
+
+.descriptionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+}
+

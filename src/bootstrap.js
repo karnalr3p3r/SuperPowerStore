@@ -4,8 +4,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import App from "./components/app";
 import About from "./components/about";
 import Login from "./components/Login"
-import SuperPower from "./components/SuperPower";
-import theArsenal from "./components/store";
+import Dashboard from "./components/Dashboard";
+import { PowersList } from "./components/PowersList";
+import theArsenal from "./components/store"
 
 
 import "./style/main.scss";
@@ -26,8 +27,8 @@ function main() {
         <Route path="/about">
           <About />
         </Route>
-        <Route path="/SuperPower">
-          <SuperPower />
+        <Route path="/Dashboard">
+          <Dashboard />
         </Route>
         <Route path="/theArsenal">
           <theArsenal />

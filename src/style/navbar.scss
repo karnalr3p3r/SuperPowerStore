@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -7,8 +10,18 @@
     background-color: #FA8B65;
 }
 
-.link {
-    color: cyan;
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Merriweather', serif;
 }
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #163CCC;
+
+}
+
 
 
