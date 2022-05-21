@@ -6,7 +6,7 @@ import About from "./components/about";
 import Login from "./components/Login"
 import Dashboard from "./components/Dashboard";
 import { PowersList } from "./components/PowersList";
-import theArsenal from "./components/store"
+// import Quiz from "./components/Quiz";
 
 
 import "./style/main.scss";
@@ -30,9 +30,9 @@ function main() {
         <Route path="/Dashboard">
           <Dashboard />
         </Route>
-        <Route path="/theArsenal">
-          <theArsenal />
-        </Route>
+        {/* <Route path="/Quiz">
+          <Quiz />
+        </Route> */}
       </Switch>
     </BrowserRouter>,
     document.querySelector(".app-wrapper")

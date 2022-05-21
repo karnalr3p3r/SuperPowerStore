@@ -11,6 +11,7 @@ export default function NavBar() {
       <Link to="/about">ABOUT</Link>
       <Link to="/Dashboard">Super Power List</Link>
       <Link to="/store">Store</Link>
+      <Link to="/Quiz">Quiz</Link>
       {Login()}
     </div>
   );

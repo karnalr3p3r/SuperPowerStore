@@ -540,17 +540,9 @@ export default class PowersList extends Component {
 
         this.state = {
             SuperPowerData: SuperPowerList,
-            isOpen: true
         };
     }
     
-    clearEntries = () => {
-        this.setState({SuperPowerData: [], isOpen: false});
-    };
-
-    showAllEntries = () => {
-        this.setState({SuperPowerData: SuperPowerList, isOpen: true});
-    };
     SuperPowerContainer() {
         return this.state.SuperPowerData.map(power => {
                return ( <div key= {power.name}>
@@ -565,10 +557,10 @@ export default class PowersList extends Component {
     render() {
         return (
             <div>
-                <h1>Super powers</h1>
+                <div className="PowersPageTitle">
+                    <h1>Super powers</h1>
+                </div>
                 {this.SuperPowerContainer()}
-                <button onClick={this.clearEntries}>Clear All Powers</button>
-                <button onClick={this.showAllEntries}>Show All Powers</button>
             </div>
         )
     }
