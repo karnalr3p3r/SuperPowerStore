@@ -1,26 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Merriweather&display=swap');
 
 
 .navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: 100px;
-    font-size: 25px;
+    font-size: 30px;
     background-color: #FA8B65;
 }
 
 .navbar a {
+    font-family: 'Macondo', cursive;
+
     color: black;
     text-decoration: none;
     text-shadow: 2px 2px skyblue;
     font-weight: 500;
-    font-family: 'Merriweather', serif;
+    width: 150px;
 }
 
 .navbar a:hover {
     text-decoration: underline;
-    color: #163CCC;
+    text-shadow: 1px 2px red, 2px 2px 2px skyblue;
+    font-size: 32px;
 
 }
 

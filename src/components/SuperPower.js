@@ -14,10 +14,6 @@ export default function Power(props){
 
     return (
         <div className="mainContainer">
-            {/* <div className={style}>
-                <button className="button" onClick={changeStyle()}>{props.name}</button>
-            </div> */}
-
             <div className="nameContainer">
                 <h1>{props.name}</h1>
             </div>

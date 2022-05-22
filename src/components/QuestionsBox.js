@@ -1,7 +1,7 @@
 import React, {useState} from "react";
   
 // Function to question inside our app
-export default class QuestionBox = ({ question, options, selected}) => {
+export default function QuestionBox ({ question, options, selected}) {
   const [answer, setAnswer] = useState(options);
   return (
     <div className="questionBox">
